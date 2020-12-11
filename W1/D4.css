@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+}
+
+div {
+  display: block;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+nav > .container > img {
+  width: 130px;
+}
+nav {
+  background-color: black;
+  color: white;
+  height: 80px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+  font-weight: 600px;
+}
+
+a:hover {
+  color: #1ed760;
+}
+/*section1*/
+
+#section1 {
+  padding: 80px 0;
+  background-color: #ff4632;
+  min-height: 70vh;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.text {
+  flex-basis: 50%;
+}
+
+.img {
+  max-width: 450px;
+  height: auto;
+  margin: 32px 0;
+}
+/*desgin title1*/
+.title1 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 32px 0;
+}
+/*desgin title2*/
+.title2 {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+/*desgin description*/
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+/*desgin button*/
+.button {
+  margin: 35px 0;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 40px;
+  border: 0;
+  font-size: 14px;
+  font: 700;
+  letter-spacing: 2px;
+}
+
+/*section2*/
+#section2 {
+  min-height: 150px;
+  background-color: #cb1582;
+  padding: 120px;
+}
+#section2 .container {
+  display: flex;
+}
+.box1 {
+  position: relative;
+  width: 527px;
+  height: 320px;
+  background: linear-gradient(
+    359.37deg,
+    #000 3.09%,
+    #ff4632 22.4%,
+    #fae62d 46.64%,
+    #9bf0e1 62.15%,
+    #a0c3d2 79.91%,
+    #4100f5 99.49%
+  );
+  background-repeat: no-repeat;
+}
+
+.box2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+  background-color: #a5ffef;
+  width: 417px;
+  height: 404px;
+  color: #cb1582;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+/*title1:color*/
+#section2 .title1 {
+  color: #a5ffef;
+}
+/*title1:color*/
+#section2 .title2 {
+  color: #a5ffef;
+}
+/*description:color*/
+#section2 .description {
+  color: #a5ffef;
+}
+/*desgin button*/
+#section2 button {
+  color: #cb1582;
+  background-color: #a5ffef;
+  border: 0px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  letter-spacing: 2px;
+  margin-top: 32px;
+}
+
+#section2 .text {
+  flex-basis: 50%;
+  margin-left: 30px;
+}
+
+/*section3*/
+#section3 {
+  padding-top: 80px;
+  background-image: url(/W1/image/images/LiE_circles.svg);
+  background-size: auto 100%;
+  color: #1ed760;
+  background-color: #2d46b9;
+  background-position: right center;
+  background-repeat: no-repeat;
+  min-height: 606px;
+}
+
+#section3 .button {
+  color: #2d46b9;
+  background-color: #1ed760;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+}

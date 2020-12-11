@@ -1,0 +1,400 @@
+
+
+/*c1*/
+.box{
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin-right: 10px;
+}
+.black{
+    background-color: black;
+}
+
+.container1{
+    display:flex;
+    justify-content: space-between;
+}
+
+.div2{
+    margin-left: auto;
+}
+
+/*c2*/
+
+/*container*/
+
+/*div2 thap hon div1*/
+.div2-2{
+margin:auto;
+
+}
+/*div3 thap hon div2*/
+.div3-2{
+    margin-left:auto;
+}
+
+/*c3*/
+/*box1 & box2*/
+.box1-3{
+    color: white;
+    background-color: lightgray;
+    width: 200px;
+    height:200px;
+}
+
+.box2-3{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+/* div2 trong div1*/
+.container3{
+display: flex;
+justify-content: center;
+}
+
+.div2-3{
+    position: absolute;
+    margin: 50px;
+}
+
+/*c4*/
+/*box*/
+.box1-4{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+.box2-4{
+    color: white;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+}
+/* div2 tren div1*/
+.div2-4{
+    position: absolute;
+    margin: -50px 0 0 50px;
+}
+
+/*c5*/
+/*box*/
+.box1-5 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+
+.box2-5 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+
+.box3-5 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+.container5{
+    margin-top: 100px;
+}
+
+/*div1: phai, div2:giua, div3: trai*/
+
+.div1-5{
+    margin-left: auto;
+}
+
+.div2-5{
+    margin:auto;
+}
+
+/*c6*/
+/*box*/
+.box1-6 {
+    width: 500px;
+    height: 300px;
+    color: white;
+    background-color: lightgray;
+}
+
+.box2-6 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+}
+
+.box3-6 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+}
+/*div2 div3 nam trong div1*/
+.container6{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.div2-6{
+    position: absolute;
+    margin-right: 350px;
+    margin-top: 150px;
+}
+.div3-6{
+    position: absolute;
+    margin-top: 0px;
+}
+
+/*c7*/
+/*box*/
+.box1-7{
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+.box2-7{
+    color: white;
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+}
+
+
+/*div2 trong div1 nam goc phai duoi */
+.div2-7{
+    position: absolute;
+    margin: -150px 0 0 150px;
+
+}
+
+
+/*c8*/
+/*box*/
+.box1-8{
+    color: white;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+}
+.box2-8{
+    color: white;
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+}
+
+
+/*div2 trong div1 nam goc phai duoi */
+.div2-8{
+    position: absolute;
+    margin: -300px 0 0 150px;
+}
+
+/*c9*/
+/*box*/
+.box1-9 {
+    width: 300px;
+    height: 450px;
+    color: white;
+    background-color: lightgray;
+}
+
+.box2-9 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+}
+
+.box3-9 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+}
+
+/* div2 div3 trong div1 can giua div1*/
+.div1-9{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+
+/*c10*/
+/*box*/
+.box1-10 {
+    width: 600px;
+    height: 450px;
+    color: white;
+    background-color: lightgray;
+}
+
+.box2-10 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+}
+
+.box3-10 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+}
+/* div2 div3 trong div1 can giua div1*/
+.div1-10{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+/*c11*/
+/*box*/
+.box1-11 {
+    width: 300px;
+    height: 600px;
+    color: white;
+    background-color: lightgray;
+}
+
+.box2-11 {
+    width: 150px;
+    height: 300px;
+    color: white;
+    background-color: black;
+}
+
+.box3-11 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: lightgreen;
+}
+
+/*div3 trong div2, div2 trong div1*/
+.div1-11{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.div2-11{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.div3-11{
+    margin: 0 20px 20px 0;
+}
+
+/*c12*/
+/*box*/
+.box1-12 {
+    width: 300px;
+    height: 600px;
+    color: white;
+    background-color: lightgray;
+}
+
+.box2-12 {
+    width: 150px;
+    height: 300px;
+    color: white;
+    background-color: black;
+}
+
+.box3-12 {
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: lightgreen;
+}
+
+/*div3 trong div2, div2 trong div1 */
+.div2-12{
+    position: relative;
+    margin-top: -300px;
+    margin-left: 225px;
+}
+.div3-12{
+    position: relative;
+    margin-top: -50px;
+    margin-left: 200px;
+}
+
+
+/*c13*/
+/*box*/
+.box1-13 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: lightgray;
+    position: absolute;
+    z-index: 4;
+}
+
+.box2-13 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    z-index: 5;
+    position: relative;
+    top:75px;
+    left:75px;
+}
+
+.box3-13 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: lightgray;
+    z-index: 5;
+    position: relative;
+    top:75px;
+    left:75px;
+}
+
+.box4-13 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    z-index: 5;
+    position: relative;
+    top:75px;
+    left:75px;
+}
+
+.box5-13 {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    z-index: 5;
+    position: relative;
+    top:75px;
+    left:75px;
+}
+
+
+
